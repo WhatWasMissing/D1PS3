@@ -1,0 +1,26 @@
+# Local upstream research checkouts
+upstream/
+
+# Proprietary/private analysis inputs
+*.elf
+*.ELF
+*.self
+*.SELF
+*.pkg
+*.PKG
+*.bin
+*.BIN
+keys/
+owned-inputs/
+captures/private/
+
+# Local analysis output
+reports/local/
+*.pcap
+*.pcapng
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
